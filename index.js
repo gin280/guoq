@@ -3,8 +3,15 @@
 import pkgJSON from "./package.json" assert { type: "json" }
 import welcome from "cli-welcome"
 import chalk from "chalk"
+import logSymbols from "log-symbols"
 
 const log = console.log
+
+//Alerts
+const success = chalk.greenBright.inverse.bold
+const info = chalk.blueBright.inverse.bold
+const warning = chalk.yellowBright.inverse.bold
+const error = chalk.redBright.inverse.bold
 
 welcome({
   title: `Guoq`,
@@ -33,3 +40,21 @@ log(
   chalk.greenBright.underline("Success!") +
     " Created a GraphQL schema from a JSON file."
 )
+
+console.log(`
+${logSymbols.success} ${success(
+  ` SUCCESS `
+)} Created a GraphQL schema from a JSON file.
+
+${logSymbols.info} ${info(
+  ` INFO `
+)} You can now run 'npm run dev' to start the GraphQL server.
+
+${logSymbols.warning} ${warning(
+  ` WARNING `
+)} You can now run 'npm run dev' to start the GraphQL server.
+
+${logSymbols.error} ${error(
+  ` ERROR `
+)} You can now run 'npm run dev' to start the GraphQL server.
+`)

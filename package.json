@@ -2,7 +2,9 @@
   "name": "guoq",
   "version": "2.0.1",
   "author": {
-    "name": "gq"
+    "name": "gq",
+    "email": "gin280@gmail.com",
+    "url": "https://www.npmjs.com/"
   },
   "description": "Get to know Guoq via `npx guoq`",
   "main": "index.js",
@@ -17,8 +19,9 @@
     "guoq-cli",
     "guoq-cli-app"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "cli-welcome": "^2.2.2"
-  }
+  },
+  "repository": "gin280/guoq"
 }

@@ -12,7 +12,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "guoq",
+    "guoq-cli",
+    "guoq-cli-app"
+  ],
   "license": "ISC",
   "dependencies": {
     "cli-welcome": "^2.2.2"

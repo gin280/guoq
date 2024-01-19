@@ -22,12 +22,17 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "await-to-js": "^3.0.0",
+    "boxen": "^7.1.1",
     "chalk": "^5.3.0",
     "cli-check-node": "^1.3.4",
     "cli-handle-unhandled": "^1.1.1",
     "cli-welcome": "^2.2.2",
+    "enquirer": "^2.4.1",
     "log-symbols": "^6.0.0",
-    "meow": "^13.1.0"
+    "meow": "^13.1.0",
+    "node-fetch": "^3.3.2",
+    "ora": "^8.0.1"
   },
   "repository": "gin280/guoq"
 }
